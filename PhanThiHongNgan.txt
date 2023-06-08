@@ -1,0 +1,57 @@
+HTML
+1.
+<link rel="stylesheet" href="file:///C:/xampp/htdocs/project/assets/css/index.css">
+<link rel="stylesheet" href="file:///C:/xampp/htdocs/project/assets/css/page.css">
+<link rel="stylesheet" href="file:///C:/xampp/htdocs/project/assets/js/index.js">
+<link rel="stylesheet" href="file:///C:/xampp/htdocs/project/assets/js/page.js">
+2. 
+The input chia nhieu type = {text,password,checkbox,radio,reset,submit,hidden}
+The textarea dung nhap chuoi dai 
+3. Gitthub
+CSS
+1.
+- Hover 
+- first-child
+- last-child
+- focus
+- disabled
+2. 
+- RBG: {red,green,blue}
+- RBGA: {RBG,Alpha}
+3.  border-radius: 50%;
+4. Gitthub
+JS
+1. 
+- while: vòng lặp while lặp lại một khối mã miễn là điều kiện được chỉ định đánh giá là đúng.
+while(Điều kiện) {
+    // Mã thực thi
+}
+- do...while: vòng lặp do...while lặp khối mã một lần. Sau đó đánh giá điều kiện. Nếu điều kiện là đúng, lặp lại khối mã miễn là điều kiện là đúng.
+do {
+    // Mã thực thi
+}
+while(Điều kiện);
+- for:vòng lặp thông qua một khối mã cho đến khi bộ đếm đạt đến một số được chỉ định.
+for(initialization; condition; increment) {
+    // Code to be executed
+}
+- for...in: Vòng lặp for...in lặp qua thuộc tính của một đối tượng.
+for(variable in object) {
+    // Mã thực thi
+}
+- for...of: Vòng lặp for...of lặp các đối tượng có thể lặp như mảng, chuỗi, v.v
+for (variable of iterable) {
+  // code block to be executed
+}
+2. return "Yah" in terminal
+3 switch..case
+4. var pattern = "^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"; 
+
+function isEmailAddress(str) {
+
+    str = "azamsharp@gmail.com";      
+
+    alert(str.match(pattern)); 
+    return str.match(pattern);    
+
+}
